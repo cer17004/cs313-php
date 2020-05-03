@@ -1,0 +1,169 @@
+/*********************************
+*         About Title 
+**********************************/
+#aboutTitle{
+    background-image: url("comingSoon.jpg");
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************************
+*          About Quote
+**********************************/
+#aboutQuote{
+    background-color: #f6d56d;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+    color: #ffff;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+/*********************************
+*       Personal Info 
+**********************************/
+#aboutSection{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#aboutParagraph{
+    text-align: center;
+    padding: 40px;
+    width:60%;
+    font-size: 22px;
+    line-height: 120%;
+    font-family: 'Economica', sans-serif;
+}
+
+#personalInfo{
+    width:40%;
+    font-family: 'Economica', sans-serif;
+    padding: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/**********************
+*    Navigation Bar 
+***********************/
+#navbar{
+    overflow: hidden; 
+    font-family: 'Economica', sans-serif;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    z-index: 4;
+    border-bottom: 2px solid lightgrey;
+}
+
+#navbar ul{
+    margin-right: 10px;
+}
+
+#navbar li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px; 
+    float: right;
+    margin-left: 4px;
+}
+
+#navbar img{
+    float: left;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#navbar li:hover{
+    border-top: 2px solid #e8b923;
+    padding-top: 8px;
+}
+
+li > a:link{
+    color: black;
+    text-decoration: none;
+}
+
+li > a:visited{
+color: black;
+text-decoration: none;
+}
+
+li > a:hover{
+color: black;
+text-decoration: none;
+}
+
+li > a:active{
+color: black;
+text-decoration: none;
+}
+
+
+/**********************
+*        Footer 
+***********************/
+#footer{
+    background-color: #383838;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#footer > #pfooter{
+width: 33.33%;
+padding: 20px;
+text-align: center;
+}
+  
+#pfooter > a{
+display:inline-block;
+padding: 5px;
+}
+
+#pfooter > a:link{
+color: white;
+text-decoration: none;
+}
+
+#pfooter > a:visited{
+color: lightgray;
+text-decoration: none;
+}
+
+#pfooter > a:hover{
+color: white;
+text-decoration: underline;
+}
+
+#pfooter > a:active{
+color: white;
+text-decoration: none;
+}
+
+#pfooter > a:first-child{
+border-right: 2px solid white;
+}
